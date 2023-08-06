@@ -1,0 +1,11 @@
+{
+  "name": "romets",
+  "version": "0.0.1",
+  "description": "CLI tool to build a plain typescript application",
+  "bin": {
+    "romets": "./romets.sh"
+  },
+  "keywords": [],
+  "author": "Dennis Chan",
+  "license": "ISC"
+}
