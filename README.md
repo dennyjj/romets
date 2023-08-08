@@ -7,13 +7,15 @@ npm i -g romets
 ```
 
 ```
-romets [<project-name>]        // build a typescript app in the current working directory
+romets [-n <PROJECT_NAME> -d <DIRECTORY> -h <HELP>]
 
-<project-name>                 // project name, default name will be used if not specified
+<NAME>                                     // project name, default name romets-app
+<DIRECTORY>                                // directory to build the project, default current working directory
+<HELP>                                     // show romets usage
 ```
 
 example
 
 ```
-romets cat
+romets -n cat -d ~/Desktop
 ```
