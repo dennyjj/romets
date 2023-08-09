@@ -16,14 +16,14 @@ build() {
     ./node_modules/.bin/ts-node src/index.ts
 }
 
-show_usage() {
+show_help() {
     echo "romets [-n <NAME> -d <DIRECTORY> -h <HELP>]"
     echo
-    echo "Usage:"
+    echo "Arguments:"
     echo
     echo "NAME, the project name"
     echo "DIRECTORY, the path of the project"
-    echo "HELP, romets usage"
+    echo "HELP, show help"
     exit -1
 }
 
@@ -31,7 +31,7 @@ while getopts 'n:d:h' OPT; do
     case $OPT in
     n) NAME="$OPTARG" ;;
     d) DIRECTORY="$OPTARG" ;;
-    h) show_usage ;;
+    h) show_help ;;
     *) build ;;
     esac
 done

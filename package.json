@@ -1,11 +1,17 @@
 {
   "name": "romets",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple and fast CLI tool to build a plain typescript application",
   "bin": {
     "romets": "./romets.sh"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "template",
+    "cli",
+    "build",
+    "tool"
+  ],
   "author": "Dennis Chan",
   "license": "ISC"
 }
