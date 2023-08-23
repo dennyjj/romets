@@ -1,6 +1,6 @@
 {
   "name": "romets",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple and fast CLI tool to build a plain typescript application",
   "bin": {
     "romets": "./romets.sh"
@@ -13,5 +13,9 @@
     "tool"
   ],
   "author": "Dennis Chan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/den138/romets.git"
+  },
   "license": "ISC"
 }
