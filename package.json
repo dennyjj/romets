@@ -1,6 +1,6 @@
 {
   "name": "romets",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Simple and fast CLI tool to build a plain typescript application",
   "bin": {
     "romets": "./romets.sh"
