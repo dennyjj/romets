@@ -20,9 +20,9 @@ show_help() {
     echo
     echo "Arguments:"
     echo
-    echo "NAME, the project name"
-    echo "DIRECTORY, the path of the project"
-    echo "HELP, show help"
+    echo "NAME, The project name"
+    echo "DIRECTORY, The path of the project"
+    echo "HELP, Show help"
     exit 1
 }
 
